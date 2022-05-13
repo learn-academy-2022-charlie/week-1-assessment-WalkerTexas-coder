@@ -7,9 +7,9 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 INSTRUCTOR EXAMPLE: What is a conditional statement?
 
-  Your answer:
+  Your answer: I used a conditional statement this last week in class to create a decision tree that figured out if someone was old enough to drink and to vote. My understanding is that all conditional statements in JavaScript start with if, and ends with else. They also allow for else if. 
 
-  Researched answer:
+  Researched answer: Conditional statements check evaluations using true boolean values to determine which code block to activate. Conditionals do not require an else statement but always require an if statement.
 
 
 

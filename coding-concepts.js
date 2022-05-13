@@ -7,10 +7,10 @@
 
 // --------------------INSTRUCTOR EXAMPLE: What will this log?
 const colors = ["tangerine", "magenta", "lilac", "daffodil"]
-// console.log(colors.push("indigo"))
+console.log(colors.push("indigo"))
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: It'll give back the array with indigo at the end || 5 || const can't be updated 
+// b) Verify and explain: I was wrong, "The output of the method itself is the length of the new array". If I wanted to see the new array I would have to log colors, and it would have to be declared witha var. 
 
 
 // --------------------1) What will this log?

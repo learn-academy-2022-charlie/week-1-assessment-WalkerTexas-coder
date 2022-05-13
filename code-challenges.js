@@ -14,6 +14,35 @@ const fruit2 = "banana"
 const fruit3 = "cherry"
 const fruit4 = "kiwi"
 
+// Create a function biggestString
+  // biggestString takes two arguments of strings
+    // suggestions string1, string2
+// create a conditional that compares the length of the strings
+  // if the first string is longer 
+    // return string1
+  // else
+    //return string2
+
+// run the function using function invocation in the console.log()
+
+const biggestString = (string1, string2) => {
+  if(string1.length > string2.length){
+    return string1
+  } else if (string1.length === string2.length){
+    return "The length is the same!"
+  } else {
+    return string2
+  }
+}
+
+console.log(biggestString(fruit1, fruit2))
+console.log(biggestString(fruit3, fruit4))
+console.log(biggestString("cats","dogs"))
+
+// Hey reviewer my outputs were: 
+// banana
+// cherry
+// The length is the same!
 
 // --------------------1) Create a function that takes in any given number and determines if the number is below boiling point, at boiling point, or above boiling point. Boiling point is 212 degrees Fahrenheit. Use the test variables provided below. Expected output: "42 is below boiling point", "350 is above boiling point", "212 is at boiling point"
 
